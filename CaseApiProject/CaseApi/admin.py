@@ -4,5 +4,5 @@ from .models import File
 # Register your models here.
 @admin.register(File)
 class FileInfoAdmin(admin.ModelAdmin):
-    list_display = ['id', 'file', 'case', 'timestamp']
+    list_display = ['id', 'file', 'json_file', 'timestamp']
 

@@ -4,4 +4,4 @@ from .models import File
 class FileSerializer(serializers.ModelSerializer):
     class Meta():
         model = File
-        fields = ('file', 'case', 'timestamp')
+        fields = ('file', 'json_file', 'timestamp')
